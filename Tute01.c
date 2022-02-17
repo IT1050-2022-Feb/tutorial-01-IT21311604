@@ -9,14 +9,14 @@ int main() {
   int mark1, mark2; //declaring variables
   float avg;
 
-  printf("Enter Mark 1 : "); 
+  printf("Enter Mark 1 :: "); 
   scanf("%d", &mark1); //getting user input
-  printf("Enter Mark 2 : ");
+  printf("Enter Mark 2 :: ");
   scanf("%d", &mark2);
 
   avg = (mark1 + mark2) / 2.0; //calculate the average
 
-  printf("Average : %2.f", avg);
+  printf("Average :: %2.f", avg);
   
   return 0;
 }
